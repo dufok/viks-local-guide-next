@@ -50,7 +50,7 @@ export default function Home() {
           </div>
 
           <h3 id="food-section" className="self-start text-white font-bold text-3xl gap-4 md:gap-8">
-            <span className=" text-[hsl(280,100%,70%)]">EAT</span> :
+            <span className=" text-[hsl(280,100%,70%)]">EAT</span>
           </h3>
 
           <div className="grid grid-cols-1 gap-4 md:gap-8">
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
 
           <h3 id="drink-section" className="self-start text-white font-bold text-3xl gap-4 md:gap-8">
-            Let`s <span className=" text-[hsl(280,100%,70%)]">DRINK</span> :
+            <span className=" text-[hsl(280,100%,70%)]">DRINK</span>
           </h3>
 
           <div className="grid grid-cols-1 gap-4 md:gap-8">
@@ -134,7 +134,7 @@ export default function Home() {
           </div>
 
           <h3 id="go-section" className="self-start text-white font-bold text-3xl ">
-            Where to <span className=" text-[hsl(280,100%,70%)]">GO</span> :
+            <span className=" text-[hsl(280,100%,70%)]">DO</span>
           </h3>
 
           <div className="grid grid-cols-1 gap-4 md:gap-8">
