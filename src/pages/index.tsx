@@ -26,7 +26,7 @@ export default function Home() {
               >
               <h1 className="text-7xl md:text-9xl text-center ">🥘</h1>
               <div className="text-lg">
-                <span className=" text-[hsl(360,100%,70%)]">EAT</span>
+                <span className=" text-[hsl(280,300%,70%)]">EAT</span>
                 We love our local eateries. Here&apos;s a few of our favorites and how we rate them.
               </div>
             </Link>
