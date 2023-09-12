@@ -16,9 +16,9 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="container flex flex-col max-w-5xl items-center justify-center gap-12 px-4 py-16 transition-all duration-300 ease-in-out">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] ">
-            Vik&apos;s <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">local</span> Guidebook
+            <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">Mercer Island</span> Guidebook
           </h1>
-          <div className="text-lg text-white" >Welcome to Vik&apos;s curated guidebook! As someone who&apos;s explored every nook and cranny of this town, I&apos;ve handpicked some of the best spots for you to visit. Whether you&apos;re a local or just passing through, these places are sure to offer you a unique experience.</div>
+          <div className="text-lg text-white" >Welcome to the Great Seattle Area! As someone who&apos;s explored every nook and cranny of this town, I&apos;ve handpicked a few of our favorite places to EAT, DRINK, and things to DO. Whether you&apos;re a local or just visiting our Emerald City, these places will offer you a unique experience.</div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-8 " >
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20 "
