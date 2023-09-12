@@ -21,21 +21,12 @@ export default function Home() {
           <div className="text-lg text-white" >Welcome to the Great Seattle Area! As someone who&apos;s explored every nook and cranny of this town, I&apos;ve handpicked a few of our favorite places to EAT, DRINK, and things to DO. Whether you&apos;re a local or just visiting our Emerald City, these places will offer you a unique experience.</div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-8 " >
             <Link
-              className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20 "
-              href="#go-section"
-              >
-              <h1 className="text-7xl md:text-9xl text-center">👟</h1>
-              <div className="text-lg">
-                Places where you can go and have fun in the city.
-              </div>
-            </Link>
-            <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
               href="#food-section"
               >
               <h1 className="text-7xl md:text-9xl text-center ">🥘</h1>
               <div className="text-lg">
-                Places where you can eat and drink in the city.
+                Places where you can eat on the Mercer Island.
               </div>
             </Link>
             <Link
@@ -44,7 +35,16 @@ export default function Home() {
               >
               <h1 className="text-7xl md:text-9xl text-center">🍾</h1>
               <div className="text-lg">
-                Places where you can drink in the city.
+                Places where you can drink on the Mercer Island.
+              </div>
+            </Link>
+            <Link
+              className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20 "
+              href="#go-section"
+              >
+              <h1 className="text-7xl md:text-9xl text-center">👟</h1>
+              <div className="text-lg">
+                Places where you can go and have fun on the Mercer Island.
               </div>
             </Link>
           </div>
