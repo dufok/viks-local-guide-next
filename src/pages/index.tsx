@@ -49,48 +49,6 @@ export default function Home() {
             </Link>
           </div>
 
-          <h3 id="go-section" className="self-start text-white font-bold text-3xl ">
-            Where to <span className=" text-[hsl(280,100%,70%)]">GO</span> :
-          </h3>
-
-          <div className="grid grid-cols-1 gap-4 md:gap-8">
-            { Object.values(content.go).map((item, idx) => (
-              <Link
-              key={idx}
-              className="flex max-w-5xl gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-              href={item.link}
-              target="_blank"
-              >
-                <div className="grid grid-cols-1 sm:grid-cols-[1fr,auto] items-top gap-2">
-                  <div className="relative h-64 w-64" >
-                    <Image
-                        src={item.image} 
-                        alt="Google Maps Image" 
-                        className="object-cover object-center rounded-xl"
-                        layout="fill"
-                        />
-                  </div>
-                  <div className="flex flex-col justify-between h-full text-left">
-                    <div>
-                      <h3 className="text-2xl font-bold my-4 sm:my-0 sm:mb-4" >{item.name}</h3>
-                      <div className="text-lg">
-                        {item.description}
-                      </div>
-                    </div>
-                    <div className="flex items-center mt-4">
-                      <div className="text-4xl ml-4">
-                          🚶‍♂️
-                      </div>
-                      <div className="text-lg">
-                          {item.walk}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-
           <h3 id="food-section" className="self-start text-white font-bold text-3xl gap-4 md:gap-8">
             Have some <span className=" text-[hsl(280,100%,70%)]">FOOD</span> :
           </h3>
@@ -175,16 +133,49 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-8 " >
-            <Link
-              className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20 "
-              href="#go-section"
+          <h3 id="go-section" className="self-start text-white font-bold text-3xl ">
+            Where to <span className=" text-[hsl(280,100%,70%)]">GO</span> :
+          </h3>
+
+          <div className="grid grid-cols-1 gap-4 md:gap-8">
+            { Object.values(content.go).map((item, idx) => (
+              <Link
+              key={idx}
+              className="flex max-w-5xl gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
+              href={item.link}
+              target="_blank"
               >
-              <h1 className="text-7xl md:text-9xl text-center">👟</h1>
-              <div className="text-lg">
-                Places where you can go and have fun in the city.
-              </div>
-            </Link>
+                <div className="grid grid-cols-1 sm:grid-cols-[1fr,auto] items-top gap-2">
+                  <div className="relative h-64 w-64" >
+                    <Image
+                        src={item.image} 
+                        alt="Google Maps Image" 
+                        className="object-cover object-center rounded-xl"
+                        layout="fill"
+                        />
+                  </div>
+                  <div className="flex flex-col justify-between h-full text-left">
+                    <div>
+                      <h3 className="text-2xl font-bold my-4 sm:my-0 sm:mb-4" >{item.name}</h3>
+                      <div className="text-lg">
+                        {item.description}
+                      </div>
+                    </div>
+                    <div className="flex items-center mt-4">
+                      <div className="text-4xl ml-4">
+                          🚶‍♂️
+                      </div>
+                      <div className="text-lg">
+                          {item.walk}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-8 " >
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
               href="#food-section"
@@ -201,6 +192,15 @@ export default function Home() {
               <h1 className="text-7xl md:text-9xl text-center">🍾</h1>
               <div className="text-lg">
                 Places where you can drink in the city.
+              </div>
+            </Link>
+            <Link
+              className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20 "
+              href="#go-section"
+              >
+              <h1 className="text-7xl md:text-9xl text-center">👟</h1>
+              <div className="text-lg">
+                Places where you can go and have fun in the city.
               </div>
             </Link>
           </div>
