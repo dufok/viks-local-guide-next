@@ -26,7 +26,7 @@ export default function Home() {
               >
               <h1 className="text-7xl md:text-9xl text-center ">🥘</h1>
               <div className="text-lg">
-                We love our local eateries. Here's a few of our favourites and how we rate them.<span className=" text-[hsl(280,100%,70%)]">EAT</span>
+                We love our local eateries. Here's a few of our favourites and how we rate them.
               </div>
             </Link>
             <Link
@@ -35,7 +35,7 @@ export default function Home() {
               >
               <h1 className="text-7xl md:text-9xl text-center">🍾</h1>
               <div className="text-lg">
-                We love our local wineries, pubs and bars. Here's a few of our favourites and how we rate them. <span className=" text-[hsl(280,100%,70%)]">DRINK</span>
+                We love our local wineries, pubs and bars. Here's a few of our favourites and how we rate them.
               </div>
             </Link>
             <Link
@@ -44,7 +44,7 @@ export default function Home() {
               >
               <h1 className="text-7xl md:text-9xl text-center">👟</h1>
               <div className="text-lg">
-                There's so much to explore in Mercer Island and Surrounds. Here's a few local activities you might enjoy.<span className=" text-[hsl(280,100%,70%)]">DO</span>
+                There's so much to explore in Mercer Island and Surrounds. Here's a few local activities you might enjoy.
               </div>
             </Link>
           </div>
