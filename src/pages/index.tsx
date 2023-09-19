@@ -25,7 +25,7 @@ export default function Home() {
               href="#food-section"
               >
               <h1 className="text-7xl md:text-9xl text-center ">🥘</h1>
-              <div className="text-lg">
+              <div className="flex justify-center">
                 <span className="text-[hsl(280,100%,70%)] text-[2em]">EAT</span>
               </div>
               <div className="text-lg">
