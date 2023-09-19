@@ -37,8 +37,10 @@ export default function Home() {
               href="#drink-section"
               >
               <h1 className="text-7xl md:text-9xl text-center">🍾</h1>
-              <div className="text-lg">
+              <div className="flex justify-center">
                 <span className="text-[hsl(280,100%,70%)] text-[2em]">DRINK</span>
+              </div>
+              <div className="text-lg">
                 in our local wineries, pubs, and bars. Here&apos;s a few of our favorites and how we rate them.
               </div>
             </Link>
@@ -47,8 +49,10 @@ export default function Home() {
               href="#go-section"
               >
               <h1 className="text-7xl md:text-9xl text-center">👟</h1>
-              <div className="text-lg">
+              <div className="flex justify-center">
                 <span className="text-[hsl(280,100%,70%)] text-[2em]">DO</span>
+              </div>
+              <div className="text-lg">
                 to explore in Mercer Island and Surrounds. Here&apos;s a few local activities you might enjoy.
               </div>
             </Link>
@@ -186,8 +190,11 @@ export default function Home() {
               href="#food-section"
               >
               <h1 className="text-7xl md:text-9xl text-center ">🥘</h1>
+              <div className="flex justify-center">
+                <span className="text-[hsl(280,100%,70%)] text-[2em]">EAT</span>
+              </div>
               <div className="text-lg">
-                Places where you can eat and drink in the city.
+                in our local eateries. Here&apos;s a few of our favorites and how we rate them.
               </div>
             </Link>
             <Link
@@ -195,8 +202,11 @@ export default function Home() {
               href="#drink-section"
               >
               <h1 className="text-7xl md:text-9xl text-center">🍾</h1>
+              <div className="flex justify-center">
+                <span className="text-[hsl(280,100%,70%)] text-[2em]">DRINK</span>
+              </div>
               <div className="text-lg">
-                Places where you can drink in the city.
+                in our local wineries, pubs, and bars. Here&apos;s a few of our favorites and how we rate them.
               </div>
             </Link>
             <Link
@@ -204,8 +214,11 @@ export default function Home() {
               href="#go-section"
               >
               <h1 className="text-7xl md:text-9xl text-center">👟</h1>
+              <div className="flex justify-center">
+                <span className="text-[hsl(280,100%,70%)] text-[2em]">DO</span>
+              </div>
               <div className="text-lg">
-                Places where you can go and have fun in the city.
+                to explore in Mercer Island and Surrounds. Here&apos;s a few local activities you might enjoy.
               </div>
             </Link>
           </div>
