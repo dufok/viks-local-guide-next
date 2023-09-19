@@ -26,12 +26,6 @@ export default function Home() {
               >
               <h1 className="text-7xl md:text-9xl text-center ">🥘</h1>
               <div className="text-lg">
-                <style>
-  .large-text {
-    font-size: 2em;
-    color: hsl(280, 100%, 70%);
-  }
-</style>
                 <span className=" text-[2em] text-hsl(280,100%,70%)]">EAT</span>
                 \nWe love our local eateries. Here&apos;s a few of our favorites and how we rate them.
               </div>
