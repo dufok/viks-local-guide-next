@@ -82,7 +82,7 @@ export default function Home() {
                   <div className="flex flex-col justify-between h-full text-left">
                     <div>
                       <h3 className="text-2xl font-bold my-4 sm:my-0 sm:mb-4" >{item.name}</h3>
-                      <div className="text-lg">
+                      <div className="text-lg" dangerouslySetInnerHTML={{ __html: item.description.replace(/\n/g, '<br />') }}>
                         {item.description}
                       </div>
                     </div>
