@@ -4,24 +4,21 @@
             "image": "https://lh5.googleusercontent.com/p/AF1QipPq3vOI5VNnc1rJiWy-eT6vUx5fevtCv_BdwTDX=w203-h304-k-no",
             "link": "https://www.pagliacci.com/locations/mercer-island",
             "name": "Pagliacci Pizza",
-            "description1": "Classic Italian pizzas with great ingredients, friendly staff and good service. Available by the slice or pie. Click for Menu! Raiting 👍👍👍👍👍",
-            "description2": "Test",
+            "description": "Classic Italian pizzas with great ingredients, friendly staff and good service. Available by the slice or pie. Click for Menu! Raiting 👍👍👍👍👍",
             "walk": "1 min"
         },
         "2": {
             "image": "https://lh5.googleusercontent.com/p/AF1QipN-omWBdnWQdrxI9VZ4EK0Bjn-tUiVMY7hYZroa=w203-h270-k-no",
             "link": "https://www.pogacha.com",
             "name": "Pogacha",
-            "description1": "Absolutely delicious bread 'pogachas' - fresh from the oven!  Almost everything I've had there is delicious especially, homemade soups!  Waiters are very personable 😊 and great little outdoor patio area, where you can bring your dog. Click for location and order online!  Raiting 👍👍👍👍👍",
-            "description2": "Test",
+            "description": "Absolutely delicious bread 'pogachas' - fresh from the oven!  Almost everything I've had there is delicious especially, homemade soups!  Waiters are very personable 😊 and great little outdoor patio area, where you can bring your dog. Click for location and order online!  Raiting 👍👍👍👍👍",
             "walk": "4 min"
         },
         "3": {
             "image": "https://lh5.googleusercontent.com/p/AF1QipNVQ4nccfLKZUpCgscV8ITFK6KnqLS2jqSNqlRm=w203-h135-k-no",
             "link": "https://justpoke.com/locations/mercerisland/",
             "name": "Just Poke Mercer Island",
-            "description1": "Just good poke. Always tastes fresh, good selection of sauces, and I appreciate that they mix your protein with your choice of sauce(s). Click for Menu! Raiting 👍👍👍👍👍",
-            "description2": "Test",
+            "description": "Just good poke. Always tastes fresh, good selection of sauces, and I appreciate that they mix your protein with your choice of sauce(s). Click for Menu! Raiting 👍👍👍👍👍",
             "walk": "4 min"
         }
     },
