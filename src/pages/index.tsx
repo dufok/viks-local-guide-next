@@ -84,8 +84,6 @@ export default function Home() {
                       <h3 className="text-2xl font-bold my-4 sm:my-0 sm:mb-4" >{item.name}</h3>
                       <div className="text-lg">
                         {item.description1}
-                      </div>
-                      <div className="text-lg">
                         {item.description2}
                       </div>
                     </div>
