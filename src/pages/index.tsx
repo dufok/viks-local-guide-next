@@ -83,8 +83,7 @@ export default function Home() {
                     <div>
                       <h3 className="text-2xl font-bold my-4 sm:my-0 sm:mb-4" >{item.name}</h3>
                       <div className="text-lg">
-                        {item.description1}
-                        {item.description2}
+                        {item.description}
                       </div>
                     </div>
                     <div className="flex items-center mt-4">
