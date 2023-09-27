@@ -46,7 +46,7 @@ export default function Home() {
             </Link>
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20 "
-              href="#go-section"
+              href="#do-section"
               >
               <h1 className="text-7xl md:text-9xl text-center">👟</h1>
               <div className="flex justify-center">
@@ -142,12 +142,12 @@ export default function Home() {
             ))}
           </div>
 
-          <h3 id="go-section" className="self-start text-white font-bold text-3xl ">
+          <h3 id="do-section" className="self-start text-white font-bold text-3xl ">
             <span className=" text-[hsl(280,100%,70%)]">DO</span>
           </h3>
 
           <div className="grid grid-cols-1 gap-4 md:gap-8">
-            { Object.values(content.go).map((item, idx) => (
+            { Object.values(content.do).map((item, idx) => (
               <Link
               key={idx}
               className="flex max-w-5xl gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
